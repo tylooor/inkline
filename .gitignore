@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Archives / exports
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Captured session exports (check curated fixtures in Tests/Fixtures instead)
+pencil-capture-*.json
