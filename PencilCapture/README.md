@@ -10,9 +10,9 @@ Every `UITouch` event, faithfully:
 - `t` — seconds since the session's first touch
 - `x`, `y` — location in points
 - `px`, `py` — `preciseLocationInView` (sub-pixel Pencil position)
-- `force`, `maxForce` — normalized pressure
+- `force`, `maxForce` — raw pressure and its ceiling (`force / maxForce` normalizes to 0–1)
 - `altitude`, `azimuth` — tilt angles (radians)
-- `type` — `pencil`, `finger`, `stylus`, etc.
+- `type` — `pencil`, `finger`, `indirect`, etc.
 - `phase` — began / moved / stationary / ended / cancelled / estimated-update
 - `estimationUpdateIndex` — matches later "estimated-update" samples to the
   points they correct

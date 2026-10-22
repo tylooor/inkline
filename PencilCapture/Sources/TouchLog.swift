@@ -11,7 +11,7 @@ struct TouchSample: Codable {
     /// preciseLocationInView — sub-pixel Pencil position.
     var px: Double
     var py: Double
-    /// Normalized force (0...1 of maximumPossibleForce); 0 when not supported.
+    /// Raw UITouch.force (1.0 = average touch); divide by maxForce to normalize. 0 when not supported.
     var force: Double
     /// maximumPossibleForce at sample time (device capability ceiling).
     var maxForce: Double

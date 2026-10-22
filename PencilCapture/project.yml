@@ -12,7 +12,7 @@ targets:
     info:
       path: Sources/Info.plist
       properties:
-        UILaunchScreen_Generation: true
+        UILaunchScreen: {}
         ITSAppUsesNonExemptEncryption: false
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationLandscapeLeft
@@ -37,3 +37,4 @@ targets:
     settings:
       base:
         SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES

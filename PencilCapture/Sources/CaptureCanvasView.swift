@@ -19,6 +19,7 @@ final class CaptureCanvasView: UIView {
     private var live: [ObjectIdentifier: LiveStroke] = [:]
     private var nextStrokeID = 0
     private var sessionStart: TimeInterval = 0
+    private var sessionStartDate = Date()
     var onChange: ((Int, Int) -> Void)?
 
     var sampleCount: Int {
@@ -42,9 +43,10 @@ final class CaptureCanvasView: UIView {
 
     func clear() {
         strokes.removeAll()
-        live.values.forEach { $0.layer?.removeFromSuperlayer() }
+        layer.sublayers?.forEach { $0.removeFromSuperlayer() }
         live.removeAll()
         nextStrokeID = 0
+        sessionStart = 0
         notify()
     }
 
@@ -58,7 +60,7 @@ final class CaptureCanvasView: UIView {
             viewWidth: Double(bounds.width),
             viewHeight: Double(bounds.height),
             scale: Double(UIScreen.main.scale),
-            startedAt: ISO8601DateFormatter().string(from: Date(timeIntervalSince1970: sessionStart)),
+            startedAt: ISO8601DateFormatter().string(from: sessionStartDate),
             strokes: finished
         )
         let encoder = JSONEncoder()
@@ -69,7 +71,10 @@ final class CaptureCanvasView: UIView {
     // MARK: - Touch capture
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if sessionStart == 0 { sessionStart = event?.timestamp ?? ProcessInfo.processInfo.systemUptime }
+        if sessionStart == 0 {
+            sessionStart = event?.timestamp ?? ProcessInfo.processInfo.systemUptime
+            sessionStartDate = Date()
+        }
         for touch in touches {
             let key = ObjectIdentifier(touch)
             guard live[key] == nil else { continue }
@@ -180,7 +185,6 @@ final class CaptureCanvasView: UIView {
     }
 
     private func typeName(_ type: UITouch.TouchType) -> String {
-        if #available(iOS 17.5, *), type == .stylus { return "stylus" }
         switch type {
         case .pencil: return "pencil"
         case .direct: return "finger"
