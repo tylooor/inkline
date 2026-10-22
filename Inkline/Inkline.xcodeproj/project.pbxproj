@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07958ED985C536FE2BA2FD17 /* PickerSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B29988B9239027D5AE8F7F /* PickerSheets.swift */; };
+		0C79BBB26B7B0FF12CF97171 /* SurfaceBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760EBA3E8AD65EC9E6213E5F /* SurfaceBackgroundView.swift */; };
+		10698EC44DA5B4CEF838ECBE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06274A370997DD66FC1CDCB /* Theme.swift */; };
+		2486A9CFA014E9FFF70AB2DF /* ScreenshotTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C07995A2358AAB48B2944 /* ScreenshotTour.swift */; };
+		2925ED4182F0D0CBA3B86837 /* SurfaceLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D3B5DD8C84699F7DA719D /* SurfaceLayoutTests.swift */; };
+		30CDADB40788ADDF84BFC204 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18679D273AC9E37206DAF4E /* DocumentController.swift */; };
+		385DD2C3C49F12D13356BB2A /* BackgroundPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FF62F43668C8BEED5DE19 /* BackgroundPainter.swift */; };
+		3CBC7A681733B409B431D8D1 /* InklineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26814DCE353D72DAFD7BA772 /* InklineApp.swift */; };
+		4A6F1A8766AFCAAF1CF02FA2 /* DebugSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A60DC15F855DB771D3C8DB /* DebugSeed.swift */; };
+		4D20E15BD1B7B28B17F2A6DD /* InkSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256DAF635F8CAF9161F9F51 /* InkSurface.swift */; };
+		4FF41E7E4F2DF5F6AA1349BF /* NavElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0116F1E3E31DEC13AE514099 /* NavElement.swift */; };
+		50341266590EA5B3E8C70B64 /* InkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4B2AFC0521F6990552865 /* InkTools.swift */; };
+		5D55482D8F64213748E73DA9 /* DocumentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C9CEAA1E1E4E8D4A2038B /* DocumentScreen.swift */; };
+		6269BFF66A952D2DD73BB28D /* InklineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2397CE1E17AAD0C3F981C6 /* InklineUITests.swift */; };
+		6500CBFB70B2A4F629991C4F /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1AE44D1D4D9A5B971BF704 /* LibraryView.swift */; };
+		8DD05394ED72F6B83614263E /* CaptureReplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426CF98C7E14FE61991FB544 /* CaptureReplayTests.swift */; };
+		95758884C5A60328F4E99A15 /* ipadpro11-2018-ipados17.7.1-protocol.json in Resources */ = {isa = PBXBuildFile; fileRef = 96952172A1B1FBF0FB931E71 /* ipadpro11-2018-ipados17.7.1-protocol.json */; };
+		976DFF43C361768561767B1A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA4FD0B4EFE30173AA063A /* CardView.swift */; };
+		A53626998C0F2F6512B8DC07 /* SurfaceLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F433ED9FDDA366305B9195 /* SurfaceLayout.swift */; };
+		C0B306FE8125F35D298F3E12 /* CaptureReplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3835B63815D65963CDA56 /* CaptureReplay.swift */; };
+		CAD96793321DB0572BD943BF /* InkBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722146E1CFCE82813CA35B2 /* InkBar.swift */; };
+		D1DB017F4E9D98DDC1A07807 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89C795A07E27BFE218AE6C /* Renderer.swift */; };
+		F92C89CCE60BF5998B208A0D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D70F9C69638FAE7601EA12 /* Document.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DED598C150F6A318848D545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B579EB1CA48481AB041F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D26F72CF848307049271546;
+			remoteInfo = Inkline;
+		};
+		6A436449FF1DBF7EBF45F787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B579EB1CA48481AB041F6F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D26F72CF848307049271546;
+			remoteInfo = Inkline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0116F1E3E31DEC13AE514099 /* NavElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavElement.swift; sourceTree = "<group>"; };
+		04C43B0CA4DEC545A764CF1E /* InklineTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = InklineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B29988B9239027D5AE8F7F /* PickerSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSheets.swift; sourceTree = "<group>"; };
+		26814DCE353D72DAFD7BA772 /* InklineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InklineApp.swift; sourceTree = "<group>"; };
+		2722146E1CFCE82813CA35B2 /* InkBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkBar.swift; sourceTree = "<group>"; };
+		2C89C795A07E27BFE218AE6C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		2DF3835B63815D65963CDA56 /* CaptureReplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureReplay.swift; sourceTree = "<group>"; };
+		426CF98C7E14FE61991FB544 /* CaptureReplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureReplayTests.swift; sourceTree = "<group>"; };
+		59623F93195C5916E69CC6C8 /* Inkline.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Inkline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743C9CEAA1E1E4E8D4A2038B /* DocumentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScreen.swift; sourceTree = "<group>"; };
+		743FF62F43668C8BEED5DE19 /* BackgroundPainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPainter.swift; sourceTree = "<group>"; };
+		760EBA3E8AD65EC9E6213E5F /* SurfaceBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceBackgroundView.swift; sourceTree = "<group>"; };
+		87D70F9C69638FAE7601EA12 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		920C07995A2358AAB48B2944 /* ScreenshotTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTour.swift; sourceTree = "<group>"; };
+		96952172A1B1FBF0FB931E71 /* ipadpro11-2018-ipados17.7.1-protocol.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ipadpro11-2018-ipados17.7.1-protocol.json"; sourceTree = "<group>"; };
+		9D1AE44D1D4D9A5B971BF704 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		A3A60DC15F855DB771D3C8DB /* DebugSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSeed.swift; sourceTree = "<group>"; };
+		A6BA4FD0B4EFE30173AA063A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B03AAEDAF947C5DDDE8C30C4 /* InklineUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = InklineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18679D273AC9E37206DAF4E /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
+		B256DAF635F8CAF9161F9F51 /* InkSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkSurface.swift; sourceTree = "<group>"; };
+		B99D3B5DD8C84699F7DA719D /* SurfaceLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceLayoutTests.swift; sourceTree = "<group>"; };
+		C06274A370997DD66FC1CDCB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		ED2397CE1E17AAD0C3F981C6 /* InklineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InklineUITests.swift; sourceTree = "<group>"; };
+		F6C4B2AFC0521F6990552865 /* InkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkTools.swift; sourceTree = "<group>"; };
+		F7DE2F87FDC15056CC413094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9F433ED9FDDA366305B9195 /* SurfaceLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F48C5ABBBE351FE28C693A4 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA4FD0B4EFE30173AA063A /* CardView.swift */,
+				B256DAF635F8CAF9161F9F51 /* InkSurface.swift */,
+				760EBA3E8AD65EC9E6213E5F /* SurfaceBackgroundView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		33F5C22B12CEF901D254279B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59623F93195C5916E69CC6C8 /* Inkline.app */,
+				04C43B0CA4DEC545A764CF1E /* InklineTests.xctest */,
+				B03AAEDAF947C5DDDE8C30C4 /* InklineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFA5169BD896C44B5FB24A1 /* inkline */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D2C42D9F6BFA36B1CA9B5 /* Tests */,
+			);
+			name = inkline;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		510F1A3235A6492EBD212EF9 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				96952172A1B1FBF0FB931E71 /* ipadpro11-2018-ipados17.7.1-protocol.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		51FDABA567E6EE1E9F90C15C /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				743FF62F43668C8BEED5DE19 /* BackgroundPainter.swift */,
+				2C89C795A07E27BFE218AE6C /* Renderer.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		668E0ACDA1BB545FD70C6131 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B18679D273AC9E37206DAF4E /* DocumentController.swift */,
+				743C9CEAA1E1E4E8D4A2038B /* DocumentScreen.swift */,
+				2722146E1CFCE82813CA35B2 /* InkBar.swift */,
+				9D1AE44D1D4D9A5B971BF704 /* LibraryView.swift */,
+				0116F1E3E31DEC13AE514099 /* NavElement.swift */,
+				09B29988B9239027D5AE8F7F /* PickerSheets.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8EF9BD89C3EA91C8915B73FA /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2397CE1E17AAD0C3F981C6 /* InklineUITests.swift */,
+				920C07995A2358AAB48B2944 /* ScreenshotTour.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		A69013C42D9A2ED2E8B5279C = {
+			isa = PBXGroup;
+			children = (
+				4BFA5169BD896C44B5FB24A1 /* inkline */,
+				E846FD9595199D3E068EFB9F /* Sources */,
+				E22EEC76B64F26B589B13534 /* Tests */,
+				8EF9BD89C3EA91C8915B73FA /* UITests */,
+				33F5C22B12CEF901D254279B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3DB2708D089787E9E278E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87D70F9C69638FAE7601EA12 /* Document.swift */,
+				F9F433ED9FDDA366305B9195 /* SurfaceLayout.swift */,
+				C06274A370997DD66FC1CDCB /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE4D2C42D9F6BFA36B1CA9B5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				510F1A3235A6492EBD212EF9 /* Fixtures */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E08FE1568AA3BC096CB721A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A3A60DC15F855DB771D3C8DB /* DebugSeed.swift */,
+				26814DCE353D72DAFD7BA772 /* InklineApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E22EEC76B64F26B589B13534 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				426CF98C7E14FE61991FB544 /* CaptureReplayTests.swift */,
+				B99D3B5DD8C84699F7DA719D /* SurfaceLayoutTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E846FD9595199D3E068EFB9F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE2F87FDC15056CC413094 /* Info.plist */,
+				E08FE1568AA3BC096CB721A5 /* App */,
+				2F48C5ABBBE351FE28C693A4 /* Canvas */,
+				F931C8E7400BB6A63A822447 /* Ink */,
+				AE3DB2708D089787E9E278E5 /* Model */,
+				51FDABA567E6EE1E9F90C15C /* Render */,
+				668E0ACDA1BB545FD70C6131 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F931C8E7400BB6A63A822447 /* Ink */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3835B63815D65963CDA56 /* CaptureReplay.swift */,
+				F6C4B2AFC0521F6990552865 /* InkTools.swift */,
+			);
+			path = Ink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D26F72CF848307049271546 /* Inkline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA65CAF16589D1F5FAA463B5 /* Build configuration list for PBXNativeTarget "Inkline" */;
+			buildPhases = (
+				9525F5C5EEFD69A218C5DC9A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inkline;
+			packageProductDependencies = (
+			);
+			productName = Inkline;
+			productReference = 59623F93195C5916E69CC6C8 /* Inkline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC448969399928D086D28E09 /* InklineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BE7581E02A4C27A663AA0 /* Build configuration list for PBXNativeTarget "InklineTests" */;
+			buildPhases = (
+				3565F0DFFF93D9C61142BDF7 /* Sources */,
+				C04E83C047CACEC61D88E6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C10BD430E8531EC650A04DA /* PBXTargetDependency */,
+			);
+			name = InklineTests;
+			packageProductDependencies = (
+			);
+			productName = InklineTests;
+			productReference = 04C43B0CA4DEC545A764CF1E /* InklineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4ACC12F5E07F4083F44B363 /* InklineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF444CF2F5B5366502E7D75 /* Build configuration list for PBXNativeTarget "InklineUITests" */;
+			buildPhases = (
+				733F9665FC35320CE598CC56 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E29D65684D231299318B257 /* PBXTargetDependency */,
+			);
+			name = InklineUITests;
+			packageProductDependencies = (
+			);
+			productName = InklineUITests;
+			productReference = B03AAEDAF947C5DDDE8C30C4 /* InklineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B579EB1CA48481AB041F6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D26F72CF848307049271546 = {
+						ProvisioningStyle = Automatic;
+					};
+					F4ACC12F5E07F4083F44B363 = {
+						TestTargetID = 1D26F72CF848307049271546;
+					};
+				};
+			};
+			buildConfigurationList = 590F0FB70CAF66F70B897C44 /* Build configuration list for PBXProject "Inkline" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A69013C42D9A2ED2E8B5279C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33F5C22B12CEF901D254279B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D26F72CF848307049271546 /* Inkline */,
+				DC448969399928D086D28E09 /* InklineTests */,
+				F4ACC12F5E07F4083F44B363 /* InklineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04E83C047CACEC61D88E6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95758884C5A60328F4E99A15 /* ipadpro11-2018-ipados17.7.1-protocol.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3565F0DFFF93D9C61142BDF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD05394ED72F6B83614263E /* CaptureReplayTests.swift in Sources */,
+				2925ED4182F0D0CBA3B86837 /* SurfaceLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733F9665FC35320CE598CC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6269BFF66A952D2DD73BB28D /* InklineUITests.swift in Sources */,
+				2486A9CFA014E9FFF70AB2DF /* ScreenshotTour.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9525F5C5EEFD69A218C5DC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385DD2C3C49F12D13356BB2A /* BackgroundPainter.swift in Sources */,
+				C0B306FE8125F35D298F3E12 /* CaptureReplay.swift in Sources */,
+				976DFF43C361768561767B1A /* CardView.swift in Sources */,
+				4A6F1A8766AFCAAF1CF02FA2 /* DebugSeed.swift in Sources */,
+				F92C89CCE60BF5998B208A0D /* Document.swift in Sources */,
+				30CDADB40788ADDF84BFC204 /* DocumentController.swift in Sources */,
+				5D55482D8F64213748E73DA9 /* DocumentScreen.swift in Sources */,
+				CAD96793321DB0572BD943BF /* InkBar.swift in Sources */,
+				4D20E15BD1B7B28B17F2A6DD /* InkSurface.swift in Sources */,
+				50341266590EA5B3E8C70B64 /* InkTools.swift in Sources */,
+				3CBC7A681733B409B431D8D1 /* InklineApp.swift in Sources */,
+				6500CBFB70B2A4F629991C4F /* LibraryView.swift in Sources */,
+				4FF41E7E4F2DF5F6AA1349BF /* NavElement.swift in Sources */,
+				07958ED985C536FE2BA2FD17 /* PickerSheets.swift in Sources */,
+				D1DB017F4E9D98DDC1A07807 /* Renderer.swift in Sources */,
+				0C79BBB26B7B0FF12CF97171 /* SurfaceBackgroundView.swift in Sources */,
+				A53626998C0F2F6512B8DC07 /* SurfaceLayout.swift in Sources */,
+				10698EC44DA5B4CEF838ECBE /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C10BD430E8531EC650A04DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D26F72CF848307049271546 /* Inkline */;
+			targetProxy = 6A436449FF1DBF7EBF45F787 /* PBXContainerItemProxy */;
+		};
+		3E29D65684D231299318B257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D26F72CF848307049271546 /* Inkline */;
+			targetProxy = 4DED598C150F6A318848D545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0518CAA96BE4838A2C085C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		10CCB720104594DBB3B05EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.Inkline;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		200F4D77088AA83287A86AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.InklineUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inkline;
+			};
+			name = Release;
+		};
+		4BF36E3A9D746796EEE0FA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.InklineUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inkline;
+			};
+			name = Debug;
+		};
+		6434ACC84B2DA1A2EBAFA987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		7E9B79EE50CF38E80C542244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.InklineTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkline.app/Inkline";
+			};
+			name = Debug;
+		};
+		B8CFD93E5CF62ED4F49AE194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.Inkline;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3CCD3B18E2FFDA2FAE610B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inkline.InklineTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inkline.app/Inkline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF444CF2F5B5366502E7D75 /* Build configuration list for PBXNativeTarget "InklineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF36E3A9D746796EEE0FA1D /* Debug */,
+				200F4D77088AA83287A86AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		590F0FB70CAF66F70B897C44 /* Build configuration list for PBXProject "Inkline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0518CAA96BE4838A2C085C45 /* Debug */,
+				6434ACC84B2DA1A2EBAFA987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA65CAF16589D1F5FAA463B5 /* Build configuration list for PBXNativeTarget "Inkline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CFD93E5CF62ED4F49AE194 /* Debug */,
+				10CCB720104594DBB3B05EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD5BE7581E02A4C27A663AA0 /* Build configuration list for PBXNativeTarget "InklineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E9B79EE50CF38E80C542244 /* Debug */,
+				C3CCD3B18E2FFDA2FAE610B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B579EB1CA48481AB041F6F0 /* Project object */;
+}
